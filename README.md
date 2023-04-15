@@ -11,3 +11,8 @@ This repo contains
 - `quadrotor_dynamics.m`: auto-generated function from the dynamics script;  
 - `quadrotor_model.slx` simulink block scheme. Inside it is possible to find various simulations that can be tried;  
 - `plotting.m` : script that plots the data after running a simulation. It is also possible to save the figures if desired.
+
+## Block scheme overview
+![image](https://user-images.githubusercontent.com/72447693/232256160-c73f32e9-dd0a-4d61-ac2d-e1013039ecb6.png)
+
+Note the algebraic loop due to the fact that the inputs $\omega_m$ depend on the acceleration of the quadrotor algebraically, and these acceleration are given in feedback.
