@@ -1,2 +1,2 @@
 # A-Fully-Actuated-Quadrotor-UAV-with-a-Propeller-Tilting-Mechanism-Modeling-and-Control
-Project developed for the module "Modeling and control of multi-rotor UAVs" at Sapienza University of Rome
+Matlab/Simulink implementation of a Dynamic feedback Linearization scheme for a 6 DoF UAV. This is an implementation of [A Fully Actuated Quadrotor UAV with a Propeller Tilting Mechanism: Modeling and Control](https://ieeexplore.ieee.org/document/7576784).
